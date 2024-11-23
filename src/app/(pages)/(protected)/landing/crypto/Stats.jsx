@@ -17,7 +17,7 @@ const Stats = () => {
           <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
             Stats
           </span>
-          <h1 className="text-3xl font-medium my-3">Prompt In Numbers</h1>
+          <h1 className="text-3xl font-medium my-3">TACTIC In Numbers</h1>
         </div>
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 mt-12">
           <div className="text-center">

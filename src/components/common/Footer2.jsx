@@ -80,7 +80,7 @@ const Footer2 = ({ socialIcon }) => {
           } text-center sm:text-start gap-6 py-5`}
         >
           <p className="text-gray-500/80 text-sm">
-            {new Date().getFullYear()}© Prompt. All rights reserved. Crafted
+            {new Date().getFullYear()}© TACTIC. All rights reserved. Crafted
             by&nbsp;
             <Link
               href=""

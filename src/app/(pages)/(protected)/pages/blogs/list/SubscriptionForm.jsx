@@ -8,7 +8,7 @@ const SubscriptionForm = () => {
     <div>
       <div className="border rounded-md p-5 w-full">
         <h1 className="mb-3">
-          Get the latest on product development from Prompt
+          Get the latest on product development from TACTIC
         </h1>
         <p className="text-sm/relaxed tracking-wider text-gray-500">
           We send a weekly newsletter containing latest updates in product

@@ -35,7 +35,7 @@ const Hero = () => {
                 </Link>
               </div>
               <p className="text-slate-4 mt-2">
-                Already using Prompt?&nbsp;
+                Already using TACTIC?&nbsp;
                 <Link href="" className="text-slate-800 hover:text-primary">
                   Log In
                 </Link>

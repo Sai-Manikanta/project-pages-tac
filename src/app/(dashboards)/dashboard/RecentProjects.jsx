@@ -29,10 +29,10 @@ const projects = [
   },
   {
     date: 'Aug 10, 2020',
-    title: 'Prompt v2.0',
+    title: 'TACTIC v2.0',
     variant: 'bg-orange-500/10 text-orange-500',
     catagory: 'Planning',
-    description: 'Plan new features and functionality for prompt...',
+    description: 'Plan new features and functionality for TACTIC...',
     progress: '50%',
     progressVariant: 'bg-red-500',
     image: [avatar8, avatar5],

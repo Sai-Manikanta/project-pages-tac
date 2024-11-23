@@ -16,7 +16,7 @@ const ClientsReview = () => {
         <div className="text-center">
           <div>
             <p className="text-base font-semibold">
-              Join 10,000+ companies who trust Prompt.
+              Join 10,000+ companies who trust TACTIC.
             </p>
             <div className="flex flex-wrap md:flex-nowrap justify-center gap-10 mt-7">
               {(brands ?? []).map((image, idx) => {

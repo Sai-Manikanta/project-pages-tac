@@ -19,7 +19,7 @@ const Hero = () => {
                   <span className="relative z-0 after:bg-yellow-100 after:-z-10 after:absolute after:h-6 after:w-full after:bottom-0 after:end-0">
                     together
                   </span>
-                  . Join Prompt!
+                  . Join TACTIC!
                 </h1>
                 <p className="text-gray-500 leading-relaxed lg:w-3/4">
                   We&apos;re always open for new creative, analytical and

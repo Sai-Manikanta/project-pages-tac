@@ -34,7 +34,7 @@ const Clients = () => {
               </h1>
               <p className="text-gray-500">
                 21,000+ organizations trust
-                <span className="text-primary">Prompt</span> to drive perfomance
+                <span className="text-primary">TACTIC</span> to drive perfomance
                 & engagement
               </p>
             </div>

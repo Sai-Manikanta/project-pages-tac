@@ -138,10 +138,10 @@ const Features1 = () => {
             Features
           </span>
           <h2 className="md:text-3xl text-xl font-semibold my-5">
-            App works best with Prompt
+            App works best with TACTIC
           </h2>
           <p className="text-slate-500">
-            Start working with <span className="text-primary">Prompt</span> to
+            Start working with <span className="text-primary">TACTIC</span> to
             showcase your app to thousands of people.
           </p>
         </div>

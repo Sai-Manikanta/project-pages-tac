@@ -1,29 +1,38 @@
-import AccountPages from './AccountPages'
+import Image from 'next/image'
+
+import Hero from './Hero/index'
+import Features from '@/components/common/Features'
+import FeedBack from '@/components/common/FeedbackTestimonial'
+import FAQs from '@/components/common/FAQs'
+import Clients from '@/components/common/Clients'
+import Footer from '@/components/common/Footer'
+import PricingCards from '@/components/common/PricingCards'
+import Benefits from './Benefits'
+import AboutSection from './AboutSection'
 import CTA from './CTA'
-import Demos from './Demos'
-import Features from './Features'
-import InnerPages from './InnerPages'
 
-//data
-import { accountPages, features, landings, secondaryPages } from './data'
-import Hero from './Hero'
+import { benefits } from './benefits-data'
 
-const Home = () => {
+//image
+import whiteWave from '@/assets/images/shapes/white-wave.svg'
+
+export const metadata = {
+  title: 'SassMorden Landing',
+}
+
+const SassModern = () => {
   return (
-    <>
+    <div className="text-gray-800">
       <Hero />
-
-      <Demos landings={landings} />
-
-      <InnerPages innerPages={secondaryPages} />
-
-      <AccountPages accountPages={accountPages} />
-
-      <Features features={features} />
-
+      <AboutSection />
+      <Benefits benefits={benefits} />
+      <Features />
+      <Clients />
+      <FeedBack />
       <CTA />
-    </>
+      <Footer />
+    </div>
   )
 }
 
-export default Home
+export default SassModern

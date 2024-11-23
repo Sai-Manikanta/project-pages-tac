@@ -55,9 +55,9 @@ const post2 = [
   {
     image: blog2,
     tag: { variant: 'bg-green-500/10 text-green-500 ', value: 'Tutorial' },
-    title: 'What you should know before considering the Prompt',
+    title: 'What you should know before considering the TACTIC',
     description:
-      'We are giving a pretty extensive guideline and context before you make your decision to consider Prompt...',
+      'We are giving a pretty extensive guideline and context before you make your decision to consider TACTIC...',
   },
   {
     image: blog3,

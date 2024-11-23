@@ -96,7 +96,7 @@ const FeaturesAccordions = () => {
           <FUCollapse.Menu className="w-full overflow-hidden duration-300 ps-16">
             <p className="text-gray-700 dark:text-gray-300">
               Post your job, interview candidates and make offers, all on
-              Prompt. Start hiring today.
+              TACTIC. Start hiring today.
             </p>
             <div className="mt-7 flex items-center">
               <Link

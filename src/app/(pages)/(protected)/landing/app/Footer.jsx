@@ -18,7 +18,7 @@ const Footer = () => {
               Start offering your users a better experience
             </h2>
             <p className="text-slate-500">
-              Start working with <span className="text-primary">Prompt</span> to
+              Start working with <span className="text-primary">TACTIC</span> to
               showcase your app to thousands of people.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4 my-10">
@@ -68,7 +68,7 @@ const Footer = () => {
             </ul>
 
             <p className="my-5">
-              {new Date().getFullYear()} © Prompt. All rights reserved. Crafted
+              {new Date().getFullYear()} © TACTIC. All rights reserved. Crafted
               by
             </p>
             <Link href="/">

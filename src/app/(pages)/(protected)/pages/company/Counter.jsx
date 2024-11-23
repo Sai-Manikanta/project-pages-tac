@@ -24,7 +24,7 @@ const Counter = () => {
               Stats
             </span>
             <h1 className="text-3xl/tight font-medium mt-3">
-              Prompt In Numbers
+              TACTIC In Numbers
             </h1>
           </div>
           <div className="mt-14">

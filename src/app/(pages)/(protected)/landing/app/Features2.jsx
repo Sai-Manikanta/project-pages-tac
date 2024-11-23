@@ -16,7 +16,7 @@ const Features2 = () => {
             Features that showcase your app
           </h2>
           <p className="text-slate-500">
-            Start working with <span className="text-primary">Prompt</span> to
+            Start working with <span className="text-primary">TACTIC</span> to
             showcase your app to thousands of people.
           </p>
         </div>

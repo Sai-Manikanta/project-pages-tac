@@ -22,7 +22,7 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="text-gray-500">
-                Prompt makes it easier to build better website and application
+                TACTIC makes it easier to build better website and application
                 more quickly and with less effort
               </p>
               <div className="inline-flex items-center bg-primary text-white rounded mt-14 pe-4">

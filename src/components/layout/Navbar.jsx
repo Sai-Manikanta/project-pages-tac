@@ -47,11 +47,12 @@ const Navbar = () => {
               <Image src={logoDark} className="h-8" width={126} alt="Logo" />
             </Link>
             <div className="lg:block hidden ms-auto">
+              {/* <p>{JSON.stringify(getHorizontalMenuItems())}</p> */}
               <AppMenu menuItems={getHorizontalMenuItems()} />
             </div>
             <div className="hidden lg:flex items-center ms-3">
               <button className="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm">
-                Download
+                Contact Us
               </button>
             </div>
             <div className="lg:hidden flex items-center ms-auto px-2.5">

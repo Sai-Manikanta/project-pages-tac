@@ -22,10 +22,7 @@ const Footer = () => {
           </li>
         </ul>
         <p className="mt-5 text-center text-slate-600">
-          {new Date().getFullYear()} © Prompt. All rights reserved. Crafted by
-          <Link href="" className="hover:text-blue-600">
-            Coderthemes
-          </Link>
+          {new Date().getFullYear()} © TACTIC. All rights reserved.
         </p>
       </div>
     </section>

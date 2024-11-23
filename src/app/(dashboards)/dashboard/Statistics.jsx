@@ -234,7 +234,7 @@ const Statistics = () => {
         <div className="flex">
           <div className="w-full">
             <h3 className="text-xl text-gray-800 mt-2">Hi Greeva</h3>
-            <p className="mt-1 font-medium mb-4">Welcome to Prompt!</p>
+            <p className="mt-1 font-medium mb-4">Welcome to TACTIC!</p>
           </div>
         </div>
         <div className="grid grid-cols-12 gap-6 mt-2">

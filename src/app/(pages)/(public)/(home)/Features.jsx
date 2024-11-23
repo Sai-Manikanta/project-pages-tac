@@ -8,7 +8,7 @@ const Features = ({ features }) => {
           <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
             Features
           </span>
-          <h1 className="text-4xl my-4">Why Choose Prompt</h1>
+          <h1 className="text-4xl my-4">Why Choose TACTIC</h1>
           <p className="text-slate-500 mb-14">
             A modern design, fresh look and feel
           </p>

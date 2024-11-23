@@ -31,7 +31,7 @@ const Footer = () => {
                 At vero eos et accusamus et iusto dignissimos ducimus odio.
               </p>
               <p className="text-sm lg:mt-16 mt-7">
-                Prompt {new Date().getFullYear()} . All rights reserved.
+                TACTIC {new Date().getFullYear()} . All rights reserved.
               </p>
             </div>
           </div>

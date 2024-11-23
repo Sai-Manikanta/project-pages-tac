@@ -27,7 +27,7 @@ const Features = ({ features }) => {
                 Smart auto deployment
               </h1>
               <p className="text-gray-500">
-                Prompts automatically deploys your changes on the cloud
+                TACTICs automatically deploys your changes on the cloud
               </p>
               <div className="flex flex-col gap-4 mt-10">
                 <div className="flex items-center gap-4">
@@ -181,7 +181,7 @@ const Features = ({ features }) => {
                 AutoSync deployment
               </h1>
               <p className="text-gray-500">
-                Prompts automatically sync your scheduled sync configuration
+                TACTICs automatically sync your scheduled sync configuration
               </p>
               <div className="flex flex-col gap-4 mt-10">
                 <div className="flex items-center gap-4">
@@ -305,7 +305,7 @@ const Features = ({ features }) => {
         <div className="bg-yellow-50 p-12">
           <div className="grid lg:grid-cols-3 grid-cols-1 items-center">
             <div className="lg:col-span-2">
-              <h4 className="text-base mb-10">Prompt works on Every Device</h4>
+              <h4 className="text-base mb-10">TACTIC works on Every Device</h4>
               <div className="flex flex-wrap gap-10">
                 {(features ?? []).map((feature, idx) => {
                   return (
@@ -323,7 +323,7 @@ const Features = ({ features }) => {
                   href=""
                   className="flex gap-3 items-center py-2 px-4 rounded border border-primary bg-primary text-white hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
                 >
-                  Get Prompt for Free
+                  Get TACTIC for Free
                   <FaArrowRight />
                 </Link>
               </div>

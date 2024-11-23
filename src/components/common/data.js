@@ -51,9 +51,9 @@ const FAQContent= [
       ' Use our dedicated support email (support@coderthemes.com) to send your issues or feedback. We are here to help anytime. ',
   },
   {
-    title: ' Will you regularly give updates of Prompt ?',
+    title: ' Will you regularly give updates of TACTIC ?',
     description:
-      ' Yes, We will update the Prompt regularly. All the future updates would be available without any cost. ',
+      ' Yes, We will update the TACTIC regularly. All the future updates would be available without any cost. ',
   },
 ]
 

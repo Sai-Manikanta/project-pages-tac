@@ -51,7 +51,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-3">
                   <h5 className="mb-3">Get in touch</h5>
                   <div className="text-gray-500/80">
-                    <Link href="/">hello@Prompt.com</Link>
+                    <Link href="/">hello@TACTIC.com</Link>
                   </div>
                   <div className="flex sm:justify-center gap-7">
                     <div>
@@ -138,13 +138,7 @@ const Footer = () => {
         <div className="border-b my-5" />
         <div className="text-center">
           <p className="text-gray-500/80 text-sm">
-            {new Date().getFullYear()}© Prompt. All rights reserved. Crafted by
-            <Link
-              href="/"
-              className="text-gray-800 hover:text-primary transition-all"
-            >
-              Coderthemes
-            </Link>
+            {new Date().getFullYear()}© TACTIC. All rights reserved.
           </p>
         </div>
       </div>

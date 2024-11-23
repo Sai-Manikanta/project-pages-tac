@@ -27,7 +27,7 @@ const CTA = () => {
             <div className="border rounded-md p-8">
               <h1 className="text-xl mb-3">Meet the team</h1>
               <p className="text-gray-500">
-                Learn more about us and who all work at Prompt. You will get
+                Learn more about us and who all work at TACTIC. You will get
                 chance to work with everyone in the team.
               </p>
               <button className="mt-10 flex items-center">

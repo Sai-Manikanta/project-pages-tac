@@ -21,7 +21,7 @@ const Features = () => {
               </h1>
               <p className="text-gray-500">
                 You don&apos;t need to manully follow up with your visitors. The
-                Prompt takes care of it and follow up automatically with them to
+                TACTIC takes care of it and follow up automatically with them to
                 understand their needs
               </p>
               <button className="mt-12 flex items-center">
@@ -59,7 +59,7 @@ const Features = () => {
                 Auto-tune your marketing campaigns
               </h1>
               <p className="text-gray-500">
-                The Prompts keeps an eye on your all marketting effort and auto
+                The TACTICs keeps an eye on your all marketting effort and auto
                 tune the marketing campaigns settings to make them perform
                 better
               </p>

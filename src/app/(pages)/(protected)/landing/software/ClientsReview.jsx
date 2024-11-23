@@ -19,7 +19,7 @@ const ClientsReview = () => {
         <div className="grid xl:grid-cols-2 grid-cols-1 items-center">
           <div>
             <p className="text-base font-medium">
-              Join 10,000+ other companies who are using Prompt
+              Join 10,000+ other companies who are using TACTIC
             </p>
             <div className="flex flex-wrap md:flex-nowrap gap-10 mt-7">
               {(brands ?? []).map((image, idx) => {

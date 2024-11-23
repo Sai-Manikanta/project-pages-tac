@@ -13,7 +13,7 @@ const Team = ({ teamMembers }) => {
             Meet Our Team
           </h1>
           <p className="text-gray-500">
-            Start working with<span className="text-primary"> Prompt </span>to
+            Start working with<span className="text-primary"> TACTIC </span>to
             manage your workforce better.
           </p>
         </div>

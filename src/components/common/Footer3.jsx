@@ -53,14 +53,8 @@ const Footer3 = () => {
           <div className="grid sm:grid-cols-2 text-center sm:text-start gap-6">
             <div>
               <p className="text-gray-500/80 text-sm">
-                {new Date().getFullYear()}© Prompt. All rights reserved.
-                Crafted by&nbsp;
-                <Link
-                  href=""
-                  className="text-gray-800 hover:text-primary transition-all"
-                >
-                  Coderthemes
-                </Link>
+                {new Date().getFullYear()}© TACTIC. All rights reserved.
+                
               </p>
             </div>
             <div className="flex justify-center sm:justify-end gap-7">

@@ -31,7 +31,7 @@ const Culture = () => {
               Our Culture
             </h1>
             <p className="text-gray-500">
-              At Prompt, We believe in a fully balanced personal and
+              At TACTIC, We believe in a fully balanced personal and
               professional life, importance of focus, fun, self-motivation and
               full transparency.
             </p>

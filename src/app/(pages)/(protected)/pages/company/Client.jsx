@@ -19,7 +19,7 @@ const Client = () => {
             We are backed by
           </h1>
           <p className="text-gray-500">
-            100+ clients trust<span className="text-primary"> Prompt </span>to
+            100+ clients trust<span className="text-primary"> TACTIC </span>to
             drive performance &amp; engagement.
           </p>
         </div>

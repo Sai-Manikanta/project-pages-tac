@@ -8,7 +8,7 @@ const Hero = () => {
           </h2>
           <p className="lg:text-lg text-slate-500 leading-7">
             Explore our knowledge badge to learn more about all the
-            functionality Prompt is offering. If you don&apos;t find what you
+            functionality TACTIC is offering. If you don&apos;t find what you
             are looking, feel free to contact our support team.
           </p>
           <form className="w-full mt-12">

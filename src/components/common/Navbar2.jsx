@@ -358,7 +358,7 @@ const Navbar2 = () => {
           <div className="px-6 py-4 flex items-center">
             <Link
               target="_blank"
-              href="https://themeforest.net/item/prompt-tailwind-css-multipurpose-landing-template/46369753"
+              href="https://themeforest.net/item/TACTIC-tailwind-css-multipurpose-landing-template/46369753"
               className="bg-primary w-full text-white p-3 rounded flex items-center justify-center text-sm"
             >
               Download
