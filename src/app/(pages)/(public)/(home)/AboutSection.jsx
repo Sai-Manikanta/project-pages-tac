@@ -137,7 +137,7 @@ function AboutSection() {
 
                         <div>
                           <h3 className='text-base'>Tracking Difficulties</h3>
-                          <p className='text-sm mt-2'>Scattered data and manual entry complicate cost tracking across multiple platforms, creating 'single points of failure.</p>
+                          <p className='text-sm mt-2'>Scattered data and manual entry complicate cost tracking across multiple platforms, creating single points of failure.</p>
                         </div>
                       </p>
                     </div>
