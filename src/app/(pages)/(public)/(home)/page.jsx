@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import Hero from './Hero/index'
 import Features from '@/components/common/Features'
+import FeaturesSection from './FeaturesSection'
 import FeedBack from '@/components/common/FeedbackTestimonial'
 import FAQs from '@/components/common/FAQs'
 import Clients from '@/components/common/Clients'
@@ -17,7 +18,7 @@ import { benefits } from './benefits-data'
 import whiteWave from '@/assets/images/shapes/white-wave.svg'
 
 export const metadata = {
-  title: 'SassMorden Landing',
+  title: 'Home',
 }
 
 const SassModern = () => {
@@ -26,7 +27,8 @@ const SassModern = () => {
       <Hero />
       <AboutSection />
       <Benefits benefits={benefits} />
-      <Features />
+      {/* <Features /> */}
+      <FeaturesSection />
       <Clients />
       <FeedBack />
       <CTA />

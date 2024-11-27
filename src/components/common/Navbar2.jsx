@@ -177,15 +177,13 @@ const ProfileDropdown = () => {
 }
 
 const Navbar2 = () => {
-  const [isOpenOffcanvas, toggleOffcanvas, openOffcanvas, closeOffcanvas] =
-    useToggle(false)
+  const [isOpenOffcanvas, toggleOffcanvas, openOffcanvas, closeOffcanvas] = useToggle(false)
 
   return (
     <>
       <header className="link-color fixed top-0 inset-x-0 flex items-center z-40 w-full bg-white transition-all py-3.5">
         <div className="container">
           <nav className="flex items-center">
-            {/* Navbar Brand Logo */}
             <Link href="/">
               <Image
                 width={126}
@@ -202,7 +200,6 @@ const Navbar2 = () => {
                 alt="Logo Light"
               />
             </Link>
-            {/* Navigation Menu */}
             <div className="hidden lg:block mx-auto grow">
               <ul
                 id="navbar-navlist"

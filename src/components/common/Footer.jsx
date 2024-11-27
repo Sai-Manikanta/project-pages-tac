@@ -13,11 +13,11 @@ const Footer = () => {
           <div className="xl:col-span-2">
             <Link href="/">
               <Image
-                width={126}
+                width={240}
                 height={32}
                 alt="logoDark"
                 src={logoDark}
-                className="h-8"
+                className="h-8 object-contain"
               />
             </Link>
             <p className="text-gray-500/80 mt-5 lg:w-4/5">

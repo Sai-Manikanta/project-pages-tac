@@ -25,16 +25,24 @@ const Hero = () => {
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-16 items-center">
               <div className="order-2 lg:order-1">
                 <div className="text-center sm:text-start">
-                  <h1 className="text-3xl/tight sm:text-4xl/tight lg:text-5xl/tight font-semibold mb-7">
+                  {/* <h1 className="text-3xl/tight sm:text-4xl/tight lg:text-5xl/tight font-semibold mb-7">
                     The best way to&nbsp;
                     <span className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">
                       showcase
                     </span>
                     &nbsp;your saas
+                  </h1> */}
+
+                  <h1 className="text-3xl/tight sm:text-4xl/tight lg:text-4xl/tight font-semibold mb-7">
+                      TACTIC Resource,&nbsp;
+                      is the single source of truth
+                      &nbsp;in managing <span className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">digital productions.</span>
                   </h1>
+
+                  {/* TACTIC Resource, is the single source of truth in managing digital productions. */}
+
                   <p className="sm:text-lg text-gray-500">
-                    Make your saas application stand out with high-quality
-                    landing page designed and developed by professional
+                    Real-Time Project Planning, Resource Allocation, and Financial Management Platform for Digital Content Creation.
                   </p>
                   <div className="flex gap-3  mt-16">
                     <EmailInput />
@@ -42,7 +50,7 @@ const Hero = () => {
                       Sign Up
                     </button>
                   </div>
-                  <div className="flex flex-wrap items-center gap-5 mt-5">
+                  {/* <div className="flex flex-wrap items-center gap-5 mt-5">
                     <div className="flex items-center gap-2">
                       {checkSvg}
                       <p className="text-sm text-gray-700">Free 14-day Demo</p>
@@ -53,7 +61,7 @@ const Hero = () => {
                         No credit card needed
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 

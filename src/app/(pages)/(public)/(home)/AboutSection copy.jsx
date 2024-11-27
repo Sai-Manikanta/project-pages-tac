@@ -1,19 +1,18 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { FaArrowRight, FaCheck } from 'react-icons/fa6'
-import { BiTargetLock } from "react-icons/bi";
 import sass2 from '@/assets/images/hero/saas2.jpg'
 
 
 
 
 function AboutSection() {
-  const checkIcon = <BiTargetLock color="#c83535" size={24} />
+  const checkIcon = <FaCheck color="#22C55E" size={30} />
 
   return (
     <section className="overflow-hidden">
 
-      <div className="xl:pt-24 pt-16">
+      <div className="xl:py-24 py-16">
         <div className="container">
           <div>
             <div className="grid lg:grid-cols-2 grid-cols-1n gap-6 items-center">
@@ -102,8 +101,8 @@ function AboutSection() {
 
 
 
-          <div className="xl:pt-24 pt-16">
-            <div data-aos="fade-up" data-aos-duration="600">
+          <div className="xl:py-24 py-16">
+            <div className="container" data-aos="fade-up" data-aos-duration="600">
               <div className="text-center">
                 <h1 className="text-2xl font-medium">
                   Production Challenges
@@ -112,85 +111,22 @@ function AboutSection() {
 
               <div className="py-16">
                 <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
-
                   <div className='bg-gray-50 p-4 rounded'>
                     <div className="flex flex-col gap-5">
                       <p className="flex items-start gap-3">
-                        <div className="flex-shrink">
-                          {checkIcon}
-                        </div>
+                        {checkIcon}
                         <div>
-                          <h3 className='text-base'>Inefficiencies in Cost Report Generation</h3>
+                          <h3 className='text-lg'>Inefficiencies in Cost Report Generation</h3>
                           <p className='text-sm mt-2'>Labor-intensive processes lead to wasted resources.</p>
                         </div>
                       </p>
                     </div>
                   </div>
 
-                  <div className='bg-gray-50 p-4 rounded'>
-                    <div className="flex flex-col gap-5">
-                      <p className="flex items-start gap-3">
-                        <div className="flex-shrink">
-                          {checkIcon}
-                        </div>
 
 
-                        <div>
-                          <h3 className='text-base'>Tracking Difficulties</h3>
-                          <p className='text-sm mt-2'>Scattered data and manual entry complicate cost tracking across multiple platforms, creating 'single points of failure.</p>
-                        </div>
-                      </p>
-                    </div>
-                  </div>
-
-
-                  <div className='bg-gray-50 p-4 rounded'>
-                    <div className="flex flex-col gap-5">
-                      <p className="flex items-start gap-3">
-                      <div className="flex-shrink">
-                          {checkIcon}
-                        </div>
-
-                        <div>
-                          <h3 className='text-base'>Inadequate Planning Tools</h3>
-                          <p className='text-sm mt-2'>Basic tools like Google Docs and Excel are ineffective for complex projects.</p>
-                        </div>
-                      </p>
-                    </div>
-                  </div>
-
-
-
-                  <div className='bg-gray-50 p-4 rounded'>
-                    <div className="flex flex-col gap-5">
-                      <p className="flex items-start gap-3">
-                        <div className="flex-shrink">
-                          {checkIcon}
-                        </div>
-                        <div>
-                          <h3 className='text-base'>Budgeting Complexities</h3>
-                          <p className='text-sm mt-2'>Multi-currency budgeting creates financial ambiguity and inaccuracies.</p>
-                        </div>
-                      </p>
-                    </div>
-                  </div>
-
-
-                  <div className='bg-gray-50 p-4 rounded'>
-                    <div className="flex flex-col gap-5">
-                      <p className="flex items-start gap-3">
-                        <div className="flex-shrink">
-                          {checkIcon}
-                        </div>
-                        <div>
-                          <h3 className='text-base'>Delayed Cost Reports</h3>
-                          <p className='text-sm mt-2'>Late or missing reports hinder informed executive decision-making.</p>
-                        </div>
-                      </p>
-                    </div>
-                  </div>
-
-
+                  
+                  
                 </div>
               </div>
             </div>

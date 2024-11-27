@@ -10,7 +10,7 @@ const Benefits = ({ benefits }) => {
           <h1 className="text-3xl/tight font-medium mt-3 mb-4">
           What We Do
           </h1>
-          <p className="text-gray-500">Delivering Expertise Across Industries</p>
+          <p className="text-gray-500 text-left">TACTIC Resource addresses the challenges of production cost tracking and planning in VFX, animation, and game studios. It offers a comprehensive, centralized platform for decision-makers to manage production complexities confidently. Featuring advanced financial reporting, role planning, crew planning, and project timeline management tools, TACTIC Resource provides a streamlined solution that consolidates data from all production roles and departments. This empowers studio executives, crew members, and schedulers with accurate, up-to-date information for enhanced coordination and decision-making.</p>
         </div>
         <div className="mt-14">
           <div className="grid md:grid-cols-2 gap-14 items-center">

@@ -25,7 +25,8 @@ export default {
 
     extend: {
       colors: {
-        'primary': colors.blue[600],
+        // 'primary': colors.blue[600],
+        'primary': "#c83535",
       },
     },
   },

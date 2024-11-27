@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="container">
           <nav className="flex items-center">
             <Link href="/">
-              <Image src={logoDark} className="h-8" width={126} alt="Logo" />
+              <Image src={logoDark} className="h-12 object-contain" width={220} alt="Logo" />
             </Link>
             <div className="lg:block hidden ms-auto">
               {/* <p>{JSON.stringify(getHorizontalMenuItems())}</p> */}
