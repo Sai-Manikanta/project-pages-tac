@@ -445,6 +445,79 @@ const FeaturesAccordions = () => {
             </div> */}
           </FUCollapse.Menu>
         </FUCollapse>
+
+        <div className="border-b my-6"></div>
+
+        <FUCollapse open={accordion == 8} toggleCollapse={handleAccordion(8)}>
+          <FUCollapse.Toggle className="pt-2 inline-flex items-center gap-x-4 w-full font-medium text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400">
+            <div className="bg-primary/10 rounded-lg flex items-center justify-center h-12 w-12">
+              {/* <svg
+                className="h-6 w-6 text-indigo-500"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  d="M4 7V5C4 3.9 4.9 3 6 3H18C19.1 3 20 3.9 20 5V7M4 12H20M4 17H20M12 7V17"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg> */}
+
+              <svg
+                className="w-7 h-7 text-primary"
+                viewBox="0 0 64 64"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+              >
+                <circle
+                  cx="32"
+                  cy="32"
+                  r="30"
+                  fill="none"
+                  stroke="rgb(200,53,53)"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M32 18c-4 0-6 2-6 4s2 4 6 4 6 2 6 4-2 4-6 4"
+                  fill="none"
+                  stroke="rgb(200,53,53)"
+                  strokeWidth="2"
+                />
+                <line
+                  x1="32"
+                  y1="14"
+                  x2="32"
+                  y2="50"
+                  stroke="rgb(200,53,53)"
+                  strokeWidth="2"
+                />
+                <rect x="20" y="36" width="6" height="10" fill="rgb(200,53,53)" />
+                <rect x="28" y="30" width="6" height="16" fill="rgb(200,53,53)" />
+                <rect x="36" y="24" width="6" height="22" fill="rgb(200,53,53)" />
+              </svg>
+
+            </div>
+            <h1 className="font-medium mb-4 mt-2">Financial Planning</h1>
+          </FUCollapse.Toggle>
+          <FUCollapse.Menu className="w-full overflow-hidden duration-300 ps-16">
+            <p className="text-gray-700 dark:text-gray-300">
+              Real-time monitoring of project financial health through weekly reports. Track expenses, and revenues, and compare current estimated final costs against original budgets. Analyze historical trends and forecast software license needs for future projects. Assess the financial impacts of various scenarios, considering location, uplift, overhead, and tax credits. Calculate accurate overhead and fringe costs for competitive bidding.
+            </p>
+            {/* <div className="mt-7 flex items-center">
+              <Link
+                href=""
+                className="text-primary inline-flex gap-2 items-center"
+              >
+                Learn more
+                <FaArrowRight />
+              </Link>
+            </div> */}
+          </FUCollapse.Menu>
+        </FUCollapse>
       </div>
     </div>
   )

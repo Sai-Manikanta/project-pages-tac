@@ -251,12 +251,12 @@ const HORIZONTAL_MENU_ITEMS = [
     url: '/',
     isTitle: true,
   },
-  {
-    key: 'about-us',
-    label: 'About',
-    url: '/',
-    isTitle: false,
-  },
+  // {
+  //   key: 'about-us',
+  //   label: 'About',
+  //   url: '/',
+  //   isTitle: false,
+  // },
   
   
   // {
@@ -336,31 +336,31 @@ const HORIZONTAL_MENU_ITEMS = [
   //     },
   //   ],
   // },
-  {
-    key: 'pages',
-    label: 'Pages',
-    isTitle: true,
-    children: [
-      {
-        key: 'page-1',
-        label: 'Page 1',
-        url: '/',
-        parentKey: 'pages',
-      },
-      {
-        key: 'page-2',
-        label: 'Page 2',
-        url: '/',
-        parentKey: 'pages',
-      },
-      {
-        key: 'page-2',
-        label: 'Page 2',
-        url: '/',
-        parentKey: 'pages',
-      },
-    ],
-  },
+  // {
+  //   key: 'pages',
+  //   label: 'Pages',
+  //   isTitle: true,
+  //   children: [
+  //     {
+  //       key: 'page-1',
+  //       label: 'Page 1',
+  //       url: '/',
+  //       parentKey: 'pages',
+  //     },
+  //     {
+  //       key: 'page-2',
+  //       label: 'Page 2',
+  //       url: '/',
+  //       parentKey: 'pages',
+  //     },
+  //     {
+  //       key: 'page-2',
+  //       label: 'Page 2',
+  //       url: '/',
+  //       parentKey: 'pages',
+  //     },
+  //   ],
+  // },
   // {
   //   key: 'pages',
   //   label: 'Pages',

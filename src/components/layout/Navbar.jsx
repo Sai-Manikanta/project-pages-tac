@@ -51,9 +51,9 @@ const Navbar = () => {
               <AppMenu menuItems={getHorizontalMenuItems()} />
             </div>
             <div className="hidden lg:flex items-center ms-3">
-              <button className="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm">
+              <Link href="/contact-us" className="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm">
                 Contact Us
-              </button>
+              </Link>
             </div>
             <div className="lg:hidden flex items-center ms-auto px-2.5">
               <button type="button" onClick={toggleOffcanvas}>
