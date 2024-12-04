@@ -21,11 +21,11 @@ const BeVietnamPro = Be_Vietnam_Pro({
 export const metadata = {
   title: {
     template:
-      '%s | TACTIC Next - Tailwind CSS Multipurpose Landing Page Template',
-    default: 'TACTIC - Tailwind CSS Multipurpose Landing Page Template',
+      '%s | TACTIC',
+    default: 'TACTIC',
   },
   description:
-    'TACTIC Nextjs - Tailwind CSS Multipurpose Landing Templates is a powerful multipurpose landing template based on the Tailwind CSS framework. The TACTIC is a fully-featured modern multi-purpose template built on top of awesome Tailwind CSS v3.3.2. It’s for building responsive, mobile-first landing pages, and websites with Tailwind. The clean and well-commented code allows you to easily customize it. You can simply update its contents, images, and scss according to your company info. The TACTIC has 10 different types of landings, which are quite enough for your business.',
+    'TACTIC',
   authors: [{ name: 'Coderthemes' }],
 }
 

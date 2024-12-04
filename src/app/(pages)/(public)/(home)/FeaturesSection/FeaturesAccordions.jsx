@@ -13,7 +13,7 @@ const FeaturesAccordions = () => {
   }
 
   return (
-    <div className="grid grid-cols-2 gap-x-20">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-20">
       <div data-aos="fade-up" data-aos-duration="500">
 
       <div className="border-b my-6"></div>

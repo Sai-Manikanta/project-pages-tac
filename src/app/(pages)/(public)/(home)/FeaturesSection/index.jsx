@@ -13,10 +13,7 @@ const Features = () => {
 
   return (
     <section className="overflow-hidden">
-
-
-
-      <div className="xl:py-24 py-16">
+      <div className="xl:pt-24 pt-16">
         <div className="container">
           <div className="text-center">
             <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
@@ -30,7 +27,7 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="xl:pt-16 xl:pb-28 py-16">
+          <div className="xl:pt-16 py-16">
             <div className="grid lg:grid-cols-1 grid-cols-1 gap-6 items-start">
               {/* <div className="relative">
                 <div className="hidden sm:block">
