@@ -9,45 +9,7 @@ const Footer3 = () => {
   return (
     <footer className="bg-gray-100">
       <div className="container">
-        <div className="py-14 pb-10">
-          <div className="grid sm:grid-cols-2 grid-cols-1 gap-5 pt-14">
-            <div>
-              <Link href="/">
-                <Image
-                  width={128}
-                  height={32}
-                  alt="logo"
-                  src={logoDark}
-                  className="w-32 mb-3"
-                />
-              </Link>
-              <p className="text-sm/relaxed tracking-wider text-gray-500">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit sed consequuntur ratione voluptatem sequi nesciunt.
-              </p>
-            </div>
-            <div>
-              <div className="flex justify-start sm:justify-end lg:gap-32 gap-14">
-                {Object.keys(footerLinks)
-                  .slice(0, 2)
-                  .map((title, idx) => {
-                    return (
-                      <div className="flex flex-col gap-4 text-sm" key={idx}>
-                        <h6 className="mb-3">{title}</h6>
-                        {footerLinks[title].links.map((link, idx) => {
-                          return (
-                            <div className="text-gray-500/80" key={idx}>
-                              <Link href="">{link}</Link>
-                            </div>
-                          )
-                        })}
-                      </div>
-                    )
-                  })}
-              </div>
-            </div>
-          </div>
-        </div>
+       
         <div className="border-b" />
         <div className="py-5">
           <div className="grid sm:grid-cols-2 text-center sm:text-start gap-6">

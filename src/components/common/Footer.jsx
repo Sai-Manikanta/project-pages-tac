@@ -9,40 +9,6 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100">
       <div className="container">
-        <div className="grid xl:grid-cols-5 gap-6 py-12">
-          <div className="xl:col-span-2">
-            <Link href="/">
-              <Image
-                width={240}
-                height={32}
-                alt="logoDark"
-                src={logoDark}
-                className="h-8 object-contain"
-              />
-            </Link>
-            <p className="text-gray-500/80 mt-5 lg:w-4/5">
-              Make your web application stand out with high-quality landing page
-            </p>
-          </div>
-          <div className="xl:col-span-3 col-span-4">
-            <div className="flex flex-col sm:flex-row gap-6 flex-wrap justify-between">
-              {Object.keys(footerLinks).map((title, idx) => {
-                return (
-                  <div className="flex flex-col gap-3" key={idx}>
-                    <h5 className="mb-3 uppercase">{title}</h5>
-                    {footerLinks[title].links.map((link, idx) => {
-                      return (
-                        <div className="text-gray-500/80" key={idx}>
-                          <Link href="">{link}</Link>
-                        </div>
-                      )
-                    })}
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
         <div className="border-t py-6">
           <div className="grid sm:grid-cols-2 text-center sm:text-start gap-6">
             <div>

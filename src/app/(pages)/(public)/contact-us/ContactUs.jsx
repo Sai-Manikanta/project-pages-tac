@@ -6,21 +6,18 @@ const ContactUs = () => {
     <section className="lg:pb-24 py-6 relative">
       <div className="container">
         <div className="lg:flex align-items-center">
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 mx-auto">
             <div className="mb-6 relative bg-clip-border rounded-[0.1875rem]">
               <div className="py-12">
                 <h2 className="mb-4 text-2xl/6 mt-0 font-medium">
-                  Let&apos;s Talk Further
+                  Let&apos;s Talk
                 </h2>
-                <p className="mb-12 text-base/6">
-                  Please fill out the following form and we will get back to you
-                  shortly
-                </p>
+                
                 <ContactForm />
               </div>
             </div>
           </div>
-          <div className="lg:w-5/12 ms-auto overflow-x-hidden">
+          {/* <div className="lg:w-5/12 ms-auto overflow-x-hidden">
             <div className="h-[520px]">
               <div
                 id="marker-map5"
@@ -35,7 +32,7 @@ const ContactUs = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="flex mb-3">
@@ -66,7 +63,8 @@ const ContactUs = () => {
             <div className="grow">
               <h5 className="text-base text-gray-700">Email</h5>
               <a href="#" className="text-gray-500 my-1">
-                youremail@gmail.com
+              contact@loftapps.com
+
               </a>
             </div>
           </div>
@@ -98,7 +96,7 @@ const ContactUs = () => {
             <div className="grow">
               <h5 className="text-base text-gray-700">Phone</h5>
               <a href="#" className="text-gray-500 my-1">
-                +00 123 456 7890
+                +1 415-660-6824
               </a>
             </div>
           </div>
@@ -124,7 +122,7 @@ const ContactUs = () => {
             <div className="grow">
               <h5 className="text-base text-gray-700">Address</h5>
               <Link href="" className="text-gray-500 my-1">
-                565 Brrom Str, NY
+              Berkeley, CA
               </Link>
             </div>
           </div>

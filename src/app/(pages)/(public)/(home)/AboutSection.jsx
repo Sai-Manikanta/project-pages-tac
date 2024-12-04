@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { FaArrowRight, FaCheck } from 'react-icons/fa6'
 import { BiTargetLock } from "react-icons/bi";
 import sass2 from '@/assets/images/hero/saas2.jpg'
+import displayModeCost from '@/assets/images/features/display_mode_cost.png'
 
 
 
@@ -89,8 +90,9 @@ function AboutSection() {
                 </div>
 
                 <Image
-                  src={sass2}
+                  src={displayModeCost}
                   alt="saas2"
+                  className="border-4 rounded"
                   data-aos="fade-left"
                   data-aos-duration="400"
                 />

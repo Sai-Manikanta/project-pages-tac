@@ -31,8 +31,8 @@ const Features = () => {
           </div>
 
           <div className="xl:pt-16 xl:pb-28 py-16">
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-start">
-              <div className="relative">
+            <div className="grid lg:grid-cols-1 grid-cols-1 gap-6 items-start">
+              {/* <div className="relative">
                 <div className="hidden sm:block">
                   <div className="after:w-20 after:h-20 after:absolute after:-top-8 after:-start-8 2xl:after:end-0 after:bg-[url('../assets/images/pattern/dot5.svg')]"></div>
                   <div className="before:w-20 before:h-20 before:absolute before:-bottom-8 before:-end-8 before:bg-[url('../assets/images/pattern/dot2.svg')]"></div>
@@ -53,7 +53,7 @@ const Features = () => {
                   data-aos="fade-right"
                   data-aos-duration="400"
                 />
-              </div>
+              </div> */}
 
               <FeaturesAccordions />
             </div>

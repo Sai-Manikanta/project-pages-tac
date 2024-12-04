@@ -10,6 +10,7 @@ import 'swiper/css'
 import sass1 from '@/assets/images/hero/saas1.jpg'
 import sass2 from '@/assets/images/hero/saas2.jpg'
 import sass3 from '@/assets/images/hero/saas3.jpg'
+import timesheet3 from '@/assets/images/hero/timesheet3.png'
 import rolePlanner from '@/assets/images/hero/role_planner.png'
 import setLabels from '@/assets/images/hero/set_labels.png'
 import Image from 'next/image'
@@ -99,7 +100,7 @@ const SassModernSwiper = () => {
           <Image
             width={705}
             height={467}
-            src={sass3}
+            src={timesheet3}
             alt="saas3"
             className="w-full h-full rounded-md"
           />

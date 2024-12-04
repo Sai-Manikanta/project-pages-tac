@@ -1,3 +1,6 @@
+'use client'
+
+import { useState } from 'react'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const EmailInput = dynamic(() => import('./EmailInput'))
@@ -17,6 +20,36 @@ const checkSvg = (
 )
 
 const Hero = () => {
+  const [email, setEmail] = useState("");
+
+  const handleSignUp = async (e) => {
+    e.preventDefault();
+    // alert(email);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          access_key: '097c34af-2459-4892-8b47-fdf8dc6226ae',
+          Type: 'New Email Subscription',
+          email,
+        }),
+      })
+
+      if (response.ok) {
+        alert('Thank you for subscribing!')
+        setEmail('')
+      } else {
+        // setErrorMessage('Something went wrong. Please try again later.')
+      }
+    } catch (error) {
+      // setErrorMessage('Failed to submit. Please check your network and try again.')
+    } 
+  };
+
   return (
     <div>
       <section className="bg-gradient-to-t from-slate-500/10 relative">
@@ -34,9 +67,9 @@ const Hero = () => {
                   </h1> */}
 
                   <h1 className="text-3xl/tight sm:text-4xl/tight lg:text-4xl/tight font-semibold mb-7">
-                      TACTIC Resource,&nbsp;
-                      is the single source of truth
-                      &nbsp;in managing <span className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">digital productions.</span>
+                    TACTIC Resource,&nbsp;
+                    is the single source of truth
+                    &nbsp;in managing <span className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">digital productions.</span>
                   </h1>
 
                   {/* TACTIC Resource, is the single source of truth in managing digital productions. */}
@@ -44,12 +77,27 @@ const Hero = () => {
                   <p className="sm:text-lg text-gray-500">
                     Real-Time Project Planning, Resource Allocation, and Financial Management Platform for Digital Content Creation.
                   </p>
-                  <div className="flex gap-3  mt-16">
-                    <EmailInput />
-                    <button className="bg-primary text-white rounded-lg text-sm font-semibold flex-none hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-3">
-                      Sign Up
-                    </button>
-                  </div>
+                  <form onSubmit={handleSignUp} className="flex gap-3  mt-16">
+                    {/* <EmailInput /> */}
+                    {/* onClick={handleSignUp} */}
+                    {/* <form onSubmit={handleSignUp}> */}
+                      <input
+                        type="email"
+                        placeholder="Your Email"
+                        value={email}
+                        onChange={e => setEmail(e.target.value)}
+                        className="inline-block text-sm border border-slate-300 focus:ring-0 rounded shadow-lg sm:shadow-none bg-white w-full py-3"
+                        required
+                      />
+                      <button
+                        type='submit'
+                        className="bg-primary text-white rounded-lg text-sm font-semibold flex-none hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-3"
+                      >
+                        Sign Up
+                      </button>
+                    {/* </form> */}
+
+                  </form>
                   {/* <div className="flex flex-wrap items-center gap-5 mt-5">
                     <div className="flex items-center gap-2">
                       {checkSvg}

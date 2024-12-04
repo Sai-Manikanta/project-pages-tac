@@ -251,6 +251,12 @@ const HORIZONTAL_MENU_ITEMS = [
     url: '/',
     isTitle: true,
   },
+  {
+    key: 'invest',
+    label: 'Invest',
+    url: '/invest',
+    isTitle: true,
+  },
   // {
   //   key: 'about-us',
   //   label: 'About',

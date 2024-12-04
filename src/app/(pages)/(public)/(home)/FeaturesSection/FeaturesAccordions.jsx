@@ -13,8 +13,11 @@ const FeaturesAccordions = () => {
   }
 
   return (
-    <div className="lg:ms-24">
+    <div className="grid grid-cols-2 gap-x-20">
       <div data-aos="fade-up" data-aos-duration="500">
+
+      <div className="border-b my-6"></div>
+      
         <FUCollapse open={accordion == 0} toggleCollapse={handleAccordion(0)}>
           <FUCollapse.Toggle className="pt-2 inline-flex items-center gap-x-4 w-full font-medium text-left text-gray-800 transition-all hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400">
             <div className="bg-blue-500/10 rounded-lg flex items-center justify-center h-12 w-12">
@@ -298,8 +301,10 @@ const FeaturesAccordions = () => {
           </FUCollapse.Menu>
         </FUCollapse>
 
-
         <div className="border-b my-6"></div>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="500">
+      <div className="border-b my-6"></div>
 
         <FUCollapse open={accordion == 5} toggleCollapse={handleAccordion(5)}>
           <FUCollapse.Toggle className="pt-2 inline-flex items-center gap-x-4 w-full font-medium text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400">
@@ -518,6 +523,8 @@ const FeaturesAccordions = () => {
             </div> */}
           </FUCollapse.Menu>
         </FUCollapse>
+
+        <div className="border-b my-6"></div>
       </div>
     </div>
   )

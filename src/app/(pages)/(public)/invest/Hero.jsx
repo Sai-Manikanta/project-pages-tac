@@ -4,9 +4,9 @@ const Hero = () => {
       <div className="container">
         <div className="flex justify-center">
           <div className="lg:w-7/12 text-center">
-            <h1 className="text-5xl/relaxed text-gray-700">Contact Us</h1>
+            <h1 className="text-4xl/relaxed text-gray-700">Join Us in Building<br /> Something Extraordinary</h1>
             <p className="mb-6 md:text-lg text-gray-500">
-              Please fill out the following form and we will get back to you
+            We are looking for visionary investors to join us in creating a transformative future. Your investment can shape this great company.
             </p>
           </div>
         </div>

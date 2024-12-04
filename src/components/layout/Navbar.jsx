@@ -10,6 +10,7 @@ import { useToggle } from '@/hooks'
 
 //images
 import logoDark from '@/assets/images/logo-dark.png'
+import logoLoft from '@/assets/images/logo-loft.png'
 import { FaBars, FaXmark } from 'react-icons/fa6'
 
 const Navbar = () => {
@@ -44,7 +45,10 @@ const Navbar = () => {
         <div className="container">
           <nav className="flex items-center">
             <Link href="/">
-              <Image src={logoDark} className="h-12 object-contain" width={220} alt="Logo" />
+              <Image src={logoLoft} className="h-12 object-contain" width={120} alt="Logo" />
+            </Link>
+            <Link href="/" className='absolute top-6 left-[50%] transform -translate-x-1/2'>
+              <Image src={logoDark} className="h-12 object-contain" width={300} alt="Logo" />
             </Link>
             <div className="lg:block hidden ms-auto">
               {/* <p>{JSON.stringify(getHorizontalMenuItems())}</p> */}

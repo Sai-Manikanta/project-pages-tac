@@ -29,7 +29,6 @@ const SassModern = () => {
       <Benefits benefits={benefits} />
       {/* <Features /> */}
       <FeaturesSection />
-      <Clients />
       <FeedBack />
       <CTA />
       <Footer />

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { FaArrowRight } from 'react-icons/fa6'
+import Link from 'next/link'
 
 //images
 import whiteWave from '@/assets/images/shapes/white-wave.svg'
@@ -31,12 +32,13 @@ const Features4 = () => {
               delectus ut aut reiciendis voluptatibus maiores alias...
             </p>
             <div>
-              <button
+              <Link
+                href="/contact-us"
                 name="Email"
                 className="bg-primary text-white rounded-lg text-sm font-semibold inline-flex gap-2 items-center shadow-lg shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40  px-8 py-3 mt-8"
               >
                 Start Free Trial <FaArrowRight />
-              </button>
+              </Link>
             </div>
           </div>
           <div className="order-1 lg:order-2">

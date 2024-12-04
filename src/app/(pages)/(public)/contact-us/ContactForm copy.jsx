@@ -16,48 +16,17 @@ const ContactForm = () => {
     message: yup.string().required('Please enter Message'),
   })
 
-  const { control, handleSubmit, reset, formState: { errors } } = useForm({
+  const { control, handleSubmit, reset } = useForm({
     resolver: yupResolver(contactUsSchema),
   })
 
-  const onSubmit = async (data) => {
-    const accessKey = '097c34af-2459-4892-8b47-fdf8dc6226ae';
-
-    try {
-      const response = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          access_key: accessKey,
-          Type: 'Contact Form',
-          name: `${data.fname} ${data.lname}`,
-          email: data.email,
-          message: data.message,
-        }),
-      })
-
-      const result = await response.json()
-
-      if (result.success) {
-        alert("Your request has been received, We'll contact you soon!")
-        reset() // Reset the form after successful submission
-      } else {
-        alert('Something went wrong. Please try again.')
-      }
-    } catch (error) {
-      console.error('Error submitting form:', error)
-      alert('Failed to submit form. Please try again.')
-    }
-  }
-
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      {/* <input type="hidden" name="_subject" value="TACTIC - New Form Submission from Contact Form" /> */}
-      {/* <input type="hidden" name="_next" value="https://abcde.in/thank-you.html" />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_template" value="table" /> */}
+    <form
+      onSubmit={handleSubmit(() => {
+        alert("Your request has been received, We'll contact you soon!")
+        reset()
+      })}
+    >
       <div className="flex gap-6">
         <div className="md:w-1/2">
           <FormInput
@@ -70,7 +39,6 @@ const ContactForm = () => {
             labelClassName="block text-sm font-medium mb-1 text-gray-600"
             containerClassName="mb-5"
           />
-          {/* {errors.fname && <p className="text-red-500 text-sm">{errors.fname.message}</p>} */}
         </div>
         <div className="md:w-1/2">
           <FormInput
@@ -83,7 +51,6 @@ const ContactForm = () => {
             containerClassName="mb-5"
             control={control}
           />
-          {/* {errors.lname && <p className="text-red-500 text-sm">{errors.lname.message}</p>} */}
         </div>
       </div>
       <div className="w-full">
@@ -97,19 +64,16 @@ const ContactForm = () => {
           containerClassName="mb-5"
           control={control}
         />
-        {/* {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>} */}
-
         <FormTextArea
           label="Message"
           name="message"
           className="py-2 px-4 leading-6 block w-full border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
-          placeholder="Type Your Message..."
+          placeholder="Type Your Massage..."
           labelClassName="block text-sm font-medium mb-1 text-gray-600"
           containerClassName="mb-5"
           rows={4}
           control={control}
         />
-        {/* {errors.message && <p className="text-red-500 text-sm">{errors.message.message}</p>} */}
       </div>
       <button
         type="submit"
@@ -120,7 +84,9 @@ const ContactForm = () => {
           <svg
             className="w-full h-full text-white"
             viewBox="0 0 24 24"
+            version="1.1"
             xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
             <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
               <rect id="bound" x={0} y={0} width={24} height={24} />
