@@ -30,7 +30,7 @@ const Features4 = () => {
               Our company is dedicated to providing cutting-edge solutions to help businesses monitor, manage, and grow their operations seamlessly. Trusted by thousands worldwide, we focus on delivering actionable insights to drive success.
             </p>
 
-            <div>
+            {/* <div>
               <Link
                 href="/contact-us"
                 name="Email"
@@ -38,7 +38,7 @@ const Features4 = () => {
               >
                 Contact Us to Grow Together <FaArrowRight />
               </Link>
-            </div>
+            </div> */}
 
             <div class="bg-white rounded-lg p-6 mt-4">
               <h2 class="text-lg font-semibold text-gray-800">Statistics</h2>

@@ -33,7 +33,7 @@ const Hero = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: '097c34af-2459-4892-8b47-fdf8dc6226ae',
+          access_key: 'de89ad5d-9df0-4d29-91d1-d0379ac67ef7',
           Type: 'New Email Subscription',
           email,
         }),
@@ -66,10 +66,12 @@ const Hero = () => {
                     &nbsp;your saas
                   </h1> */}
 
+                  {/* TACTIC Resource,  a single source of truth  in managing digital production */}
+
                   <h1 className="text-3xl/tight sm:text-4xl/tight lg:text-4xl/tight font-semibold mb-7">
-                    TACTIC Resource,&nbsp;
-                    is the single source of truth
-                    &nbsp;in managing <span className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">digital productions.</span>
+                    TACTIC Resource,
+                    a single source of truth
+                    in managing <span className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">digital production</span>
                   </h1>
 
                   {/* TACTIC Resource, is the single source of truth in managing digital productions. */}

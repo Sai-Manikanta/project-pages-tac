@@ -31,9 +31,10 @@ const ContactForm = () => {
         },
         body: JSON.stringify({
           access_key: accessKey,
-          Type: 'Contact Form',
+          Type: 'Invest Form',
           name: `${data.fname} ${data.lname}`,
           email: data.email,
+          affiliation: data.affiliation,
           message: data.message,
         }),
       })
@@ -98,6 +99,17 @@ const ContactForm = () => {
           control={control}
         />
         {/* {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>} */}
+
+        <FormInput
+          label="Affiliation"
+          name="affiliation"
+          type="text"
+          className="py-2 px-4 leading-6 block w-full border-gray-300 rounded text-sm focus:border-gray-300 focus:ring-0"
+          placeholder="e.g., ABC Investments Ltd., XYZ University, Freelance Consultant"
+          labelClassName="block text-sm font-medium mb-1 text-gray-600"
+          containerClassName="mb-5"
+          control={control}
+        />
 
         <FormTextArea
           label="Message"

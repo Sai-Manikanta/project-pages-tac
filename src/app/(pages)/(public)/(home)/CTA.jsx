@@ -26,7 +26,7 @@ const Footer = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: '097c34af-2459-4892-8b47-fdf8dc6226ae',
+          access_key: 'de89ad5d-9df0-4d29-91d1-d0379ac67ef7',
           Type: 'New Email Subscription',
           email,
         }),

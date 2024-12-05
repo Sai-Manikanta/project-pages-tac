@@ -48,7 +48,7 @@ const splashScreenStyles = `
 }
 
 #splash-screen.remove {
-  animation: fadeout 0.7s forwards;
+  animation: fadeout 3s forwards;
   z-index: 0;
 }
 
