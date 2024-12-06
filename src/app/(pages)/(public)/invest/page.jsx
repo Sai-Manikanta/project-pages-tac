@@ -18,7 +18,7 @@ const InvestPage = () => {
 
       {/* <InvestPageUs /> */}
       <Features1 />
-      <Features4 />
+      {/* <Features4 /> */}
 
       <ContactUs />
 
