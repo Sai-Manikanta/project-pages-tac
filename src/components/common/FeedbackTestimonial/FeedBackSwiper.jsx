@@ -2,22 +2,22 @@
 
 import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import { FaQuoteLeft } from 'react-icons/fa6'
 
 //images
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
-import avatar3 from '@/assets/images/avatars/img-3.jpg'
+// import avatar1 from '@/assets/images/avatars/img-1.jpg'
+// import avatar2 from '@/assets/images/avatars/img-2.jpg'
+// import avatar3 from '@/assets/images/avatars/img-3.jpg'
 
-import google from '@/assets/images/brands/google.svg'
-import amazon from '@/assets/images/brands/amazon.svg'
+// import google from '@/assets/images/brands/google.svg'
+// import amazon from '@/assets/images/brands/amazon.svg'
 // import lenovo from '@/assets/images/brands/lenovo.svg'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-const CommonSlide1 = ({ image, logo, }) => {
+const CommonSlide1 = () => {
   return (
     <>
       <FaQuoteLeft className="text-gray-500 text-5xl" />
@@ -33,33 +33,17 @@ const CommonSlide1 = ({ image, logo, }) => {
 
       <div className="flex flex-wrap items-center justify-between gap-10">
         <div className="flex items-center gap-2">
-          {/* <Image
-            alt="userImg"
-            height={40}
-            width={40}
-            src={image}
-            className="h-10 w-10 rounded-full"
-          /> */}
           <div>
             <h1 className="text-sm mb-1">Dale Taylor</h1>
             <p className="text-gray-500 text-xs">Tippet Studio, VP of Production</p>
           </div>
         </div>
-        {/* <div>
-          <Image
-            alt="companyLogo"
-            height={32}
-            width={96}
-            src={logo}
-            className="w-24"
-          />
-        </div> */}
       </div>
     </>
   )
 }
 
-const CommonSlide2 = ({ image, logo, }) => {
+const CommonSlide2 = () => {
   return (
     <>
       <FaQuoteLeft className="text-gray-500 text-5xl" />
@@ -83,27 +67,11 @@ const CommonSlide2 = ({ image, logo, }) => {
 
       <div className="flex flex-wrap items-center justify-between gap-10">
         <div className="flex items-center gap-2">
-          {/* <Image
-            alt="userImg"
-            height={40}
-            width={40}
-            src={image}
-            className="h-10 w-10 rounded-full"
-          /> */}
           <div>
             <h1 className="text-sm mb-1">Zoe Mariner</h1>
             <p className="text-gray-500 text-xs">Head of Operations, Jellyfish Pictures</p>
           </div>
         </div>
-        {/* <div>
-          <Image
-            alt="companyLogo"
-            height={32}
-            width={96}
-            src={logo}
-            className="w-24"
-          />
-        </div> */}
       </div>
     </>
   )
@@ -131,14 +99,11 @@ const FeedBackSwiper = () => {
             spaceBetween={30}
           >
             <SwiperSlide className="p-10 border rounded-xl bg-white shadow">
-              <CommonSlide1></CommonSlide1>
+              <CommonSlide1 /> 
             </SwiperSlide>
             <SwiperSlide className="p-10 border rounded-xl bg-white shadow">
-              <CommonSlide2></CommonSlide2>
+              <CommonSlide2 />
             </SwiperSlide>
-            {/* <SwiperSlide className="p-10 border rounded-xl bg-white shadow">
-              <CommonSlide1 image={avatar3} logo={lenovo}></CommonSlide1>
-            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>
